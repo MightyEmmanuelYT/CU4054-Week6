@@ -1,7 +1,10 @@
-﻿  Source.cpp
-Source.obj : error LNK2019: unresolved external symbol "public: __cdecl Room::Room(int)" (??0Room@@QEAA@H@Z) referenced in function main
-Source.obj : error LNK2019: unresolved external symbol "public: __cdecl Robot::Robot(void)" (??0Robot@@QEAA@XZ) referenced in function main
-Source.obj : error LNK2019: unresolved external symbol "public: void __cdecl Robot::move(void)" (?move@Robot@@QEAAXXZ) referenced in function main
-Source.obj : error LNK2019: unresolved external symbol "public: __cdecl GraphicsManager::GraphicsManager(class Room *,class Robot *)" (??0GraphicsManager@@QEAA@PEAVRoom@@PEAVRobot@@@Z) referenced in function main
-Source.obj : error LNK2019: unresolved external symbol "public: void __cdecl GraphicsManager::draw(void)" (?draw@GraphicsManager@@QEAAXXZ) referenced in function main
-C:\Users\yadavu\Documents\Visual Studio 2022\RobbyTheRobot\x64\Debug\RobbyTheRobot.exe : fatal error LNK1120: 5 unresolved externals
+﻿Task2.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::String::String(char const *,class std::locale const &)" (__imp_??0String@sf@@QEAA@PEBDAEBVlocale@std@@@Z) referenced in function main
+Task2.obj : error LNK2019: unresolved external symbol "public: __cdecl Room::Room(int)" (??0Room@@QEAA@H@Z) referenced in function main
+Task2.obj : error LNK2019: unresolved external symbol "public: __cdecl Robot::Robot(void)" (??0Robot@@QEAA@XZ) referenced in function main
+Task2.obj : error LNK2019: unresolved external symbol "public: void __cdecl Robot::move(void)" (?move@Robot@@QEAAXXZ) referenced in function main
+Task2.obj : error LNK2019: unresolved external symbol "public: bool __cdecl Robot::ahead_is_colour(class Room *,class sf::String)" (?ahead_is_colour@Robot@@QEAA_NPEAVRoom@@VString@sf@@@Z) referenced in function main
+Task2.obj : error LNK2019: unresolved external symbol "public: void __cdecl Robot::right(void)" (?right@Robot@@QEAAXXZ) referenced in function main
+Task2.obj : error LNK2019: unresolved external symbol "public: void __cdecl Robot::left(void)" (?left@Robot@@QEAAXXZ) referenced in function main
+Task2.obj : error LNK2019: unresolved external symbol "public: __cdecl GraphicsManager::GraphicsManager(class Room *,class Robot *)" (??0GraphicsManager@@QEAA@PEAVRoom@@PEAVRobot@@@Z) referenced in function main
+Task2.obj : error LNK2019: unresolved external symbol "public: void __cdecl GraphicsManager::draw(void)" (?draw@GraphicsManager@@QEAAXXZ) referenced in function main
+C:\Users\emd0346\Documents\GitHub\CU4054-Week6\x64\Debug\RobbyTheRobot.exe : fatal error LNK1120: 9 unresolved externals
